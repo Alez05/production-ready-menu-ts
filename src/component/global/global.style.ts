@@ -81,16 +81,17 @@ export const SRoot = createGlobalStyle`
 `;
 
 export const SReset = createGlobalStyle`
+  html,
+  body {
+    scroll-behavior: smooth;
+    /* padding: 0; */
+    margin: 0;
+    font-family: var(--font-family);
+  }
   *,
   *::before,
   *::after {
     box-sizing: border-box;
-    margin: 0;
-  }
-  html,
-  body {
-    scroll-behavior: smooth;
-    padding: 0;
     margin: 0;
     font-family: var(--font-family);
   }

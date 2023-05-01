@@ -15,29 +15,6 @@ export const Nav = styled.nav`
   height: 60px;
 `;
 
-export type TLabelType = {
-  for: string;
-};
-
-export const Label0 = styled.label`
-  /* border: 10px solid green; */
-  position: fixed;
-  inset: 0 0 0 0;
-  /* background-color: cyan; */
-  cursor: pointer;
-`;
-
-export const Input1 = styled.input`
-  display: none;
-`;
-
-export const Label1 = styled.label`
-  display: block;
-  cursor: pointer;
-  padding: 0 1rem;
-  height: 60px;
-`;
-
 export const NavList = styled.div`
   display: none;
   position: absolute;

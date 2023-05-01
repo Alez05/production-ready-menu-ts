@@ -1,4 +1,5 @@
 import { Input } from '..';
+import { SLabel, SLabelContent } from '../label/label.style';
 import * as S from './nav.style';
 
 const Nav = () => {
@@ -10,7 +11,7 @@ const Nav = () => {
         type='radio'
         checked
       />
-      <S.Label0 htmlFor='toggle'></S.Label0>
+      <SLabel htmlFor='toggle'></SLabel>
       <S.Nav>
         <div>
           <Input
@@ -18,7 +19,7 @@ const Nav = () => {
             name='toggle'
             type='radio'
           />
-          <S.Label1 htmlFor='toggle1'>Cars</S.Label1>
+          <SLabelContent htmlFor='toggle1'>Cars</SLabelContent>
           <S.NavList>
             <S.NavItem>
               <S.NavLink>ceva1</S.NavLink>
@@ -31,7 +32,7 @@ const Nav = () => {
             name='toggle'
             type='radio'
           />
-          <S.Label1 htmlFor='toggle2'>Parts</S.Label1>
+          <SLabelContent htmlFor='toggle2'>Parts</SLabelContent>
           <S.NavList>
             <S.NavItem>
               <S.NavLink>ceva 2</S.NavLink>
