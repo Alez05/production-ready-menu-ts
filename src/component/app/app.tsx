@@ -1,4 +1,3 @@
-import React from 'react';
 import { Buttons, GlobalStyle, Nav } from '..';
 
 const App = () => {
